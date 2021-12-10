@@ -1,0 +1,215 @@
+
+@font-face {
+    font-family: 'Heebo-Black';
+    src: url('../fonts/Heebo-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Heebo-Bold';
+    src: url('../fonts/fonts/Heebo-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Heebo-ExtraBold';
+    src: url('../fonts/fonts/Heebo-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Heebo-ExtraLight';
+    src: url('../fonts/fonts/Heebo-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Heebo-Light';
+    src: url('../fonts/fonts/Heebo-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Heebo-Medium';
+    src: url('../fonts/fonts/Heebo-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Heebo-Regular';
+    src: url('../fonts/fonts/Heebo-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Heebo-SemiBold';
+    src: url('../fonts/fonts/Heebo-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Heebo-Thin';
+    src: url('../fonts/fonts/Heebo-Thin.ttf') format('truetype');
+}
+html {
+  font-size: 14px;
+  
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+    direction:rtl
+  }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    direction: rtl
+}
+
+body {
+    margin-bottom: 60px;
+    direction: rtl;
+
+}
+.img-fluid {
+    position: fixed;
+    left: 0;
+    min-width: 110%;
+}
+.logo{
+    position: fixed;
+    max-width: 195px;
+    max-height: 127px;
+    top: 29%;
+    left: 22%;
+}
+.container{
+    padding:0;
+}
+.home-container {
+    position: fixed;
+    height: 100%;
+    width: 104%;
+    background: #FCF0F1;
+}
+.rect-1 {
+    height: 59px;
+    width: 277px;
+    margin: 6px;
+    border: 0;
+    /* left: 41px;
+    top: 466px;*/
+}
+.rect-1.blue {
+    background: #796FFF;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+}
+.circle-1 {
+    height: 70px;
+    width: 277px;
+    margin: 6px;
+    border: 0;
+    
+}
+    .circle-1.red {
+        background: hsl(354deg 100% 66%);
+        right: -2%;
+        position: inherit;
+        top: 0%;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        color: #A6F4DC;
+    }
+    .circle-1.green {
+        background: #A6F4DC;
+        left: 0%;
+        position: inherit;
+        top: 17%;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        color: black;
+    }
+.rect-1.green {
+    background: #A6F4DC;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+.d-flex {
+    position: absolute;
+    /* top: 70%;
+    left: 14%;*/
+    width: 100%;
+    height: 100%;
+    /*ustify-content: center;*/
+    align-items: center;
+}
+ .d-flex.flex2 {
+    top: 49%;
+ }
+.flex-page-1{
+    top:70%
+}
+.flex-page-2-1 {
+    top: 20%
+}
+.flex-page-2-2 {
+    top: 40%
+}
+.flex-page-2-3 {
+    top: 60%
+}
+.bg-green {
+    background: #A6F4DC;
+}
+.bg-blue {
+    background: #796FFF;
+}
+.text-center {
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+.text-center.blue {
+    color: #796FFF;
+}
+.text-center.green {
+    color: #A6F4DC;
+}
+a {
+    text-decoration:none;
+    color:black;
+}
+.header-box {
+    position: absolute;
+    height: 86px;
+    width: 190px;
+    left: 117px;
+    top: 127px;
+}
+
+.header-text {
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.main-text {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.d-flex.main-flex {
+    top: 34%;
+    left: 25%;
+}
+
+
+    /*left: 13%;
+background: #796FFF;
+height: 59px;
+width: 277px;
+top: 69%;
+left: 50;
+border-bottom-right-radius: 60px;
+border-bottom-right-radius: 60px;
+border-top-left-radius: 60px;
+position: absolute;*/
+

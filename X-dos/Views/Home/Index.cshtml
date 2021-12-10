@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+     var pagenum = int.Parse(ViewData["page"].ToString());
+}
+@if (pagenum == 1)
+{
+    <div class="home-container">
+   <img src="~/main-img.png" class="img-fluid " alt="Responsive image">
+   <img src="~/logo.png" class="rounded mx-auto d-block logo" alt="Responsive image">
+   <div class="d-flex flex-column flex-page-1">
+         <button class="rect-1 blue">
+             <span class="text-center "> 
+                 <a class="text-center green"  asp-route-id=2>פעם ראשונה כאן</a>
+             </span>
+         </button>
+   <button class="rect-1 green">
+             <span class="text-center blue"> כבר חבר ב DOS  </span>
+   </button>
+   </div>
+ 
+</div>
+}
+@if (pagenum == 2)
+{
+    <div class="home-container">
+        <div  class="d-flex flex-column" > 
+         <div class="d-flex flex-column flex-page-2-1">
+        <span class="header-text">היי,</span>
+        <span class="header-text">כיף שהגעת!</span>
+    </div>
+     <div class="d-flex flex-column flex-page-2-2">
+        <span class="main-text">שנייה לפני ההצטרפות לקהילת X dos,</span>
+        <span class="main-text">אנחנו ממש ממליצים לקרוא עליה!</span>
+        <span class="main-text">את זה אפשר לעשות בקלות ממש כאן</span>
+    </div>
+   <div class="d-flex flex-column flex-page-2-3">
+         <button class="rect-1 blue">
+             <span class="text-center "> 
+                 <a class="text-center green"  asp-route-id=3>אודות X dos</a>
+             </span>
+         </button>
+        </div>
+   </div>
+</div>
+}
+@if (pagenum == 3)
+{
+    <div class="home-container">
+        <div  class="d-flex flex-column" > 
+         <div class="d-flex flex-column flex-page-2-1">
+        <span class="header-text">יאללה,</span>
+        <span class="header-text">שנתחיל?</span>
+    </div>
+     <div class="d-flex flex-column flex-page-2-2">
+        <span class="main-text"> אם עולם הקריפטו זר לך(אמאלה מה זה)</span>
+        <span class="main-text">הכפתור הוורוד נועד בשבילך!</span>
+    </div>
+   <div class="d-flex flex-column flex-page-2-3">
+         <button class="circle-1 red">
+             <span class="text-center "> 
+                 <a class="text-center green"  asp-route-id=1>איך ליצור ארנק דיגיטלי</a>
+             </span>
+         </button>
+         <button class="circle-1 green">
+             <span class="text-center "> 
+                 <a class="text-center"  asp-controller="User"asp-action="Index" >כבר יש לי ארנק דיגיטלי,</a>
+                 <b></b>
+                 <a class="text-center" asp-controller="User"asp-action="Index"  >רוצה להצטרף!</a>
+                 
+
+             </span>
+         </button>
+        </div>
+   </div>
+</div>
+}
+
